@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/d729494326.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <title>Kathy's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/knlogo2-01.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Digital Creator</p>
+            <h1>Hello, I'm <span>Kathy </span><br>from Luxembourg</h1>
+        </div>
+    </div> 
+</div>
+<!----------about-------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-column-1">
+                <h1 class="sub-title">About Me</h1>
+                <div class="textbox">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic 
+                typesetting, remaining essentially unchanged. It was popularised in the
+                1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus
+                versions of Lorem Ipsum.</div>
+                
+                </div>
+                <div class="about-column-2">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Adobe</span><br>Illustrator, Photoshop, Premiere Pro, Indesign</li>
+                        <li><span>Languages</span><br>French(C1), Luxemburgish(C2), German(C1), English(C1), Arabic(A2), </li>
+                        <li><span>Social Media</span><br>Copywriting, Advertising, Content Creation</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - HYPE social Media</span><br>Social Media Management Intern</li>
+                        <li><span>2020 - Activate</span><br>NGO Ambassador</li>
+                        <li><span>2020 - Ville de Luxembourg</span><br>Integration & Special needs services</li>
+                      
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2023 - BAC + 2</span><br>BTS Digital Content</li>
+                        <li><span>2020 - 2021 - BAC</span><br>Sciences Sociales</li>
+                      
+                    </ul>
+                </div>
+                <img src="images/Userme.JPG" class="user">
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
+<!-------------------Serivces------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-chalkboard"></i>
+                <h2>Web Design</h2>
+                <p>Wordpress & Coding</p>
+                <a href="webdesign.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-share-nodes"></i>
+                <h2>Social Media</h2>
+                <p>Copywriting & Content Creation</p>
+                <a href="socialmedia.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Video/Photo</h2>
+                <p>Creation & Editing</p>
+                <a href="videophoto.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-pen"></i>
+                <h2>Adobe Skills</h2>
+                <p>Illustration & Mise en page</p>
+                <a href="adobe.html">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!----------Portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Illustrations</h3>
+                    <p>Made with Illustrator</p>
+                    <a href="illustrations.html"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Photos</h3>
+                    <p>Edited in Lightroom, Photoshop & Premiere</p>
+                    <a href="photos.html"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Layouts</h3>
+                    <p>Made with Indesign</p>
+                    <a href="layouts.html"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!---------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> kathy370@icloud.com</p>
+                <p><i class="fa-solid fa-phone"></i> +352 691 978 033</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/kathyngom/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="sumbit" class="btn btn2">Sumbit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>© Made with <i class="fa-sharp fa-solid fa-heart"></i> by Kathy Ngom</p>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxsqWbU6Vn1hlSKBU_NvPpKu-s3tboGNaecDKiNeGVOOZ1WQOPScRfLrxtyuqRZdM2A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },2000)
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
